@@ -4,7 +4,7 @@ This section describes how to use basic operators (e.g. addition, subtraction) i
 
 !!! note Operator Overloading
 
-    In Rust and Python it is possible to use the operators directly (as in `+ - * / < > `) as the language allows operator overloading. For instance, the operator `+` translates to the `.add()` method. You can choose the one you prefer.
+    In Rust and Python it is possible to use operators directly (e.g. `+ - * / < >`), as both languages allow operator overloading. For instance, using the `+` operator is equivalent to using to the `.add()` method.
 
 {{code_block('user-guide/expressions/operators','dataframe',['DataFrame'])}}
 
