@@ -68,7 +68,7 @@ In the example below we show how this can be done.
 
 !!! note
 
-    Note that we can make Python functions for clarity. These functions don't cost us anything. That is because we only create Polars expressions, we don't apply a custom function over a `Series` during runtime of the query. Of course, you can make functions that return expressions in Rust, too.
+    Note that we can define Python and Rust functions that return Polars expressions to make our pipelines clearer. These functions won't impact performance, because they are not being applied themselves over a `Series`.
 
 {{code_block('user-guide/expressions/aggregation','filter',['group_by'])}}
 
